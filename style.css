@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;500&family=Poppins:ital,wght@0,100;1,100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.btn1
+{
+    padding: 5px;
+    border-radius: 22px;
+    color:wheat;
+    background-color: purple;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+        
+}
+.btn2
+{
+    padding: 5px;
+    border-radius: 22px;
+    color:wheat;
+    background-color: purple;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 14px;    
+}
+
+section 
+{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-size: 20px;
+}
+.header
+{
+ /*height: 80vh;*/
+ background-image: url("d5.avif");
+ /*background-position: center;*/
+ background-size: cover;   
+ 
+
+}
+
+.header-content
+{   max-width: 350px;
+    margin-top: 100px;
+    margin: 80px;
+}
+.header-content h2{
+    font-size: 35px;
+   
+    color:fuchsia;
+}
+.header-content p{
+    font-size: 30px;
+    color: brown;
+    line-height:normal;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input[type=submit]:hover {
+    background-color: darkcyan;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .fname 
+  {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .lname
+  {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .country
+  {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .subject
+  {
+    font-family: 'Times New Roman', Times, serif;
+  }
+#Home
+{
+    background-color: white;   
+}
+#About
+{
+   background-color: white;  
+}
+#Service
+{
+    background-color: white;
+}
+#Contact
+{
+    background-color: white;
+}
+footer
+{
+    background-color: black;
+    padding: 80px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
